@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.mycompany.phonegaptest" version="1.0">
+
+	<name>phonegap test</name>
+	<description>phonegap test</description>
+	
+	<gap:platform name="ios" />
+
+	<access origin="*" />
+	
+	<preference name="permissions" value="none" />
+	<preference name="deployment-target" value="8.0" />
+	<preference name="target-device" value="universal" />
+</widget>

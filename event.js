@@ -1,0 +1,1 @@
+window.addEventListener("devicemotion", function (eventData) {  alert('devicemotion'); }, false);
