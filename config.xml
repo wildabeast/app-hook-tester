@@ -7,6 +7,8 @@
 
 	<access origin="*" />
 	
+    <preference name="pgb-builder-version"        value="2" />
+	
 	<plugin spec="https://github.com/goya/plugin-hook-tester.git" />
 	
 	<hook type="before_platform_add"      src="hooks/hook.js"/>
