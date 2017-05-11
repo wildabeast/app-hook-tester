@@ -9,7 +9,7 @@
 	
     <preference name="pgb-builder-version"        value="2" />
 	
-	<plugin spec="https://github.com/goya/plugin-hook-tester.git" />
+	<plugin name="cordova-plugin-whitelist" />
 	
 	<hook type="before_platform_add"      src="hooks/hook.js"/>
     <hook type="after_platform_add"       src="hooks/hook.js"/>
