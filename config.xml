@@ -9,7 +9,9 @@
 	
     <preference name="pgb-builder-version"        value="2" />
 	
+	<plugin name="cordova-plugin-whitelist" />
 	<plugin spec="https://github.com/wildabeast/plugin-hook-tester.git" />
+	<plugin name="cordova-plugin-device" />
 	
 	<hook type="before_platform_add"      src="hooks/hook.js"/>
     <hook type="after_platform_add"       src="hooks/hook.js"/>
